@@ -1,5 +1,5 @@
 # Copyright (C) 2005-2009 PreludeIDS Technologies. All Rights Reserved.
-# Author: Nicolas Delon <nicolas.delon@requiem-ids.com>
+# Author: Nicolas Delon 
 # Author: Yoann Vandoorselaere <yoannv@gmail.com>
 #
 # This file is part of the Confutatis program.
