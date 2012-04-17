@@ -1,0 +1,25 @@
+#import cgi
+#extends confutatis.templates.ClassicLayout
+
+#block main_content
+#filter CleanOutput
+
+<div id="fieldset_page" style="position: absolute; top: 25%; left: 50%; width:600px; margin-left:-220px;">
+  <fieldset style="text-align: center; vertical-align: middle;">
+   <legend class="error_name">$name</legend>
+   <p><b>$message</b></p>
+   #if $traceback
+     <br/><br/>
+     <textarea rows=10 cols=75 readonly>$traceback</textarea>
+   #end if
+
+   <br/><br/>
+
+   <input style="float: left; position: relative;" type="button" value="Back" onclick="history.back()" />
+   <input style="float: right; position: relative;" type="submit" value="Retry" onclick="location.reload()"/>
+
+  </fieldset>
+ </div>
+
+#end filter
+#end block main_content

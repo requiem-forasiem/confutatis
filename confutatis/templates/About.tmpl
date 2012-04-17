@@ -1,0 +1,67 @@
+#extends confutatis.templates.ClassicLayout
+#from confutatis import siteconfig
+
+#block main_content
+#filter CleanOutput
+
+<div id="about" style="border: 0px solid red;"> 
+
+<div style="vertical-align: top; padding-right: 40px;">
+
+<h2 style="font-weight: bold; color: #4D535C;">Confutatis $siteconfig.version</h2>
+
+<br />
+
+<p style="font-size: 11px; font-weight: bold; font-style: italic; color: #4D535C;">
+ <a href="https://github.com/requiem-forasiem"></a> $_("is a community whose mission is to improve the security of the internet by detecting known patterns.")
+</p>
+
+</div>
+
+<br/>
+
+<img style="margin-left: 10px; margin-top: -10px; padding: 0; float: right;" src="confutatis/images/requiem-logo.gif" alt="Requiem logo" />
+
+<div style="display: block; vertical-align: middle;">
+
+<br/>
+
+<ul><li style="color: #6f9662; font-weight: bold;">$_("Customizing Requiem")
+  <p>
+  $_("In keeping with the Open Source spirit, we encourage you to participate in the development of your application.")
+  </p>
+</li>
+
+<li style="color: #6f9662; font-weight: bold;">$_("Software Maintenance and Technical Support")
+  <p>
+   $_("You can ask anything to our Google group: https://groups.google.com/forum/#!forum/requiem-forasiem.")
+  </p>
+</li>
+
+</ul>
+
+</div>
+
+<br/>
+
+<div style="display: table-row; vertical-align: bottom;width: 100%;"> 
+
+<table align="center" id="about_contact">
+ <tr style="text-align: center;">
+  <td><b>$_("Contact")</b></td>
+  <td><b>$_("Website")</b></td>
+ </tr>
+ <tr>
+  <td><a href="https://groups.google.com/forum/#!forum/requiem-forasiem">Requiem for a SIEM Google group</a></td>
+  <td><a href="http://requiem-forasiem.github.com/">http://requiem-forasiem.github.com/</a></td>
+ </tr>
+</table>
+
+</div>
+<center style="vertical-align: bottom;" >Copyright &copy; 2004 - 2007 PreludeIDS Technologies. All right reserved.</center>
+<center style="vertical-align: bottom;" >Copyright &copy; 2012 - Requiem Project. All right reserved.</center>
+
+</div>
+
+#end filter
+#end block main_content

@@ -1,0 +1,17 @@
+#extends confutatis.templates.HTMLDocument
+
+#def body_class()
+#end def
+
+#block body
+<body class="$body_class">
+	<div id="top_view">
+		<div id="top_view_header">
+			<div id="top_view_header_software">$confutatis.software</div>
+			<div id="top_view_header_place">$confutatis.place</div>
+			<div id="top_view_header_title">$confutatis.title</div>
+		</div>
+		$toplayout_content
+	</div>
+</body>
+#end block body

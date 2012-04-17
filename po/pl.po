@@ -1,0 +1,1183 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-04-17 12:34+0200\n"
+"PO-Revision-Date: 2008-03-04 09:30+0100\n"
+"Last-Translator: Konrad Kosmowski <konrad@kosmosik.net>\n"
+"Language-Team: \n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Polish\n"
+"X-Poedit-Country: POLAND\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+
+#: confutatis/Log.py:65
+#, python-format
+msgid "Unknown logtype specified: '%s'"
+msgstr "Nieznany typ pliku dziennika '%s'"
+
+#: confutatis/User.py:41
+msgid "Permission Denied"
+msgstr "Odmowa dostępu"
+
+#: confutatis/User.py:42
+#, python-format
+msgid "Access to view '%s' forbidden"
+msgstr "Odmowa dostępu do widoku '%s'"
+
+#: confutatis/view.py:29 confutatis/view.py:35 confutatis/view.py:41
+msgid "Parameters Normalization failed"
+msgstr "Normalizacja parametrów nie powiodła się"
+
+#: confutatis/Filter.py:78
+#, python-format
+msgid "Invalid filter element '%s' referenced from filter formula"
+msgstr "Nieprawidłowy element filtra '%s' wywołany z formuły"
+
+#: confutatis/Auth.py:29
+msgid "Authentication failed"
+msgstr "Błąd uwierzytelniania"
+
+#: confutatis/Auth.py:35
+msgid "Invalid session"
+msgstr "Nieprawidłowa sesja"
+
+#: confutatis/Auth.py:41
+msgid "Session expired"
+msgstr "Sesja wygasła"
+
+#: confutatis/Auth.py:138
+msgid "Logged out"
+msgstr "Wylogowany"
+
+#: confutatis/localization.py:107
+msgid "January"
+msgstr "Styczeń"
+
+#: confutatis/localization.py:108
+msgid "February"
+msgstr "Luty"
+
+#: confutatis/localization.py:109
+msgid "March"
+msgstr "Marzec"
+
+#: confutatis/localization.py:110
+msgid "April"
+msgstr "Kwiecień"
+
+#: confutatis/localization.py:111
+msgid "May"
+msgstr "Maj"
+
+#: confutatis/localization.py:112
+msgid "June"
+msgstr "Czerwiec"
+
+#: confutatis/localization.py:113
+msgid "July"
+msgstr "Lipiec"
+
+#: confutatis/localization.py:114
+msgid "August"
+msgstr "Sierpień"
+
+#: confutatis/localization.py:115
+msgid "September"
+msgstr "Wrzesień"
+
+#: confutatis/localization.py:116
+msgid "November"
+msgstr "Październik"
+
+#: confutatis/localization.py:117
+msgid "October"
+msgstr "Listopad"
+
+#: confutatis/localization.py:118
+msgid "December"
+msgstr "Grudzień"
+
+#: confutatis/localization.py:120
+msgid "Monday"
+msgstr "Poniedziałek"
+
+#: confutatis/localization.py:121
+msgid "Tuesday"
+msgstr "Wtorek"
+
+#: confutatis/localization.py:122
+msgid "Wednesday"
+msgstr "Środa"
+
+#: confutatis/localization.py:123
+msgid "Thursday"
+msgstr "Czwartek"
+
+#: confutatis/localization.py:124
+msgid "Friday"
+msgstr "Piątek"
+
+#: confutatis/localization.py:125
+msgid "Saturday"
+msgstr "Sobota"
+
+#: confutatis/localization.py:126
+msgid "Sunday"
+msgstr "Niedziela"
+
+#: confutatis/Database.py:98
+#, python-format
+msgid ""
+"Database schema version %(version)s found when %(reqversion)s was required"
+msgstr ""
+"Schemat bazy danych w wersji %(version)s, wymagana wersja schematu "
+"%(reqversion)s."
+
+#: confutatis/views/messagesummary.py:304
+#: confutatis/views/messagesummary.py:461
+#: confutatis/views/messagesummary.py:691
+#: confutatis/views/messagesummary.py:708
+#: confutatis/views/messagesummary.py:731
+#: confutatis/views/messagesummary.py:789
+#: confutatis/views/messagesummary.py:808
+#: confutatis/views/messagesummary.py:844
+msgid "Name"
+msgstr "Nazwa"
+
+#: confutatis/views/messagesummary.py:305
+#: confutatis/views/messagesummary.py:611
+msgid "Code"
+msgstr "Kod"
+
+#: confutatis/views/messagesummary.py:306
+msgid "Data length"
+msgstr "Długość danych"
+
+#: confutatis/views/messagesummary.py:307
+msgid "Data"
+msgstr "Dane"
+
+#: confutatis/views/messagesummary.py:403
+#: confutatis/views/messagesummary.py:846
+msgid "Create time"
+msgstr "Data utworzenia"
+
+#: confutatis/views/messagesummary.py:406
+msgid "Detect time"
+msgstr "Data wykrycia"
+
+#: confutatis/views/messagesummary.py:411
+msgid "Analyzer time"
+msgstr "Czas analizatora"
+
+#: confutatis/views/messagesummary.py:417
+msgid "Process"
+msgstr "Proces"
+
+#: confutatis/views/messagesummary.py:418
+msgid "Process Path"
+msgstr "Ścieżka procesu"
+
+#: confutatis/views/messagesummary.py:419
+msgid "Process PID"
+msgstr "Identyfikator procesu"
+
+#: confutatis/views/messagesummary.py:427
+msgid "Node location"
+msgstr "Lokalizacja węzła"
+
+#: confutatis/views/messagesummary.py:449
+msgid "Node name"
+msgstr "Nazwa węzła"
+
+#: confutatis/views/messagesummary.py:452
+#, fuzzy
+msgid "Node name (resolved)"
+msgstr "Nazwa węzła"
+
+#: confutatis/views/messagesummary.py:454
+msgid "Node address"
+msgstr "Adres węzła"
+
+#: confutatis/views/messagesummary.py:460 confutatis/views/stats.py:719
+msgid "Model"
+msgstr "Typ"
+
+#: confutatis/views/messagesummary.py:462
+msgid "Analyzerid"
+msgstr "ID analizatora"
+
+#: confutatis/views/messagesummary.py:463
+#: confutatis/views/messagesummary.py:563
+msgid "Version"
+msgstr "Wersja"
+
+#: confutatis/views/messagesummary.py:464 confutatis/views/stats.py:726
+msgid "Class"
+msgstr "Klasa"
+
+#: confutatis/views/messagesummary.py:466
+msgid "Manufacturer"
+msgstr "Dostawca"
+
+#: confutatis/views/messagesummary.py:474
+msgid "Operating System"
+msgstr "System operacyjny"
+
+#: confutatis/views/messagesummary.py:492
+#, python-format
+msgid "Analyzer Path (%d not shown)"
+msgstr "Ścieżka analizatora (%d ukryte)"
+
+#: confutatis/views/messagesummary.py:499
+#: confutatis/views/messagesummary.py:1030
+#: confutatis/views/messagesummary.py:1102
+#, python-format
+msgid "Analyzer #%d"
+msgstr "Analizator nr %d"
+
+#: confutatis/views/messagesummary.py:509
+msgid "Additional data"
+msgstr "Dodatkowe dane"
+
+#: confutatis/views/messagesummary.py:512
+#: confutatis/views/messagesummary.py:732
+msgid "Meaning"
+msgstr "Zmienna"
+
+#: confutatis/views/messagesummary.py:513
+msgid "Value"
+msgstr "Wartość"
+
+#: confutatis/views/messagesummary.py:564
+#: confutatis/views/messagesummary.py:585
+msgid "Header length"
+msgstr "Nagłówek"
+
+#: confutatis/views/messagesummary.py:565
+msgid "TOS"
+msgstr "TOS"
+
+#: confutatis/views/messagesummary.py:566
+#: confutatis/views/messagesummary.py:604
+msgid "Length"
+msgstr "Wielkość"
+
+#: confutatis/views/messagesummary.py:567
+#: confutatis/views/messagesummary.py:613
+msgid "Id"
+msgstr "ID"
+
+#: confutatis/views/messagesummary.py:571
+msgid "Ip offset"
+msgstr "Ofset IP"
+
+#: confutatis/views/messagesummary.py:572
+msgid "TTL"
+msgstr "TTL"
+
+#: confutatis/views/messagesummary.py:573
+#: confutatis/views/messagesummary.py:932
+#: confutatis/views/messagesummary.py:935
+#: confutatis/views/messagesummary.py:938
+msgid "Protocol"
+msgstr "Protokół"
+
+#: confutatis/views/messagesummary.py:574
+#: confutatis/views/messagesummary.py:596
+#: confutatis/views/messagesummary.py:605
+#: confutatis/views/messagesummary.py:612
+msgid "Checksum"
+msgstr "Suma"
+
+#: confutatis/views/messagesummary.py:575
+msgid "Source address"
+msgstr "IP źródłowy"
+
+#: confutatis/views/messagesummary.py:576
+msgid "Target address"
+msgstr "IP docelowy"
+
+#: confutatis/views/messagesummary.py:581
+#: confutatis/views/messagesummary.py:602
+msgid "Source port"
+msgstr "Port źródłowy"
+
+#: confutatis/views/messagesummary.py:582
+#: confutatis/views/messagesummary.py:603
+msgid "Target port"
+msgstr "Port docelowy"
+
+#: confutatis/views/messagesummary.py:586
+msgid "Reserved"
+msgstr "Rezerw."
+
+#: confutatis/views/messagesummary.py:595
+msgid "Window"
+msgstr "Okno"
+
+#: confutatis/views/messagesummary.py:597
+msgid "URP"
+msgstr "URP"
+
+#: confutatis/views/messagesummary.py:610
+#: confutatis/views/messagesummary.py:755
+#: confutatis/views/messagesummary.py:788
+#: confutatis/views/messagesummary.py:807
+msgid "Type"
+msgstr "Typ"
+
+#: confutatis/views/messagesummary.py:614
+msgid "Seq #"
+msgstr "Nr sekw."
+
+#: confutatis/views/messagesummary.py:615
+msgid "Mask"
+msgstr "Maska"
+
+#: confutatis/views/messagesummary.py:616
+msgid "Gateway Address"
+msgstr "Adres bramy"
+
+#: confutatis/views/messagesummary.py:617
+msgid "Num address"
+msgstr "Adres numeryczny"
+
+#: confutatis/views/messagesummary.py:618
+msgid "Wpa"
+msgstr "WPA"
+
+#: confutatis/views/messagesummary.py:619
+msgid "Lifetime"
+msgstr "Czas życia"
+
+#: confutatis/views/messagesummary.py:620
+msgid "Otime"
+msgstr "Otime"
+
+#: confutatis/views/messagesummary.py:621
+msgid "Rtime"
+msgstr "Rtime"
+
+#: confutatis/views/messagesummary.py:622
+msgid "Ttime"
+msgstr "Ttime"
+
+#: confutatis/views/messagesummary.py:628
+#: confutatis/views/messagesummary.py:1077
+msgid "Payload"
+msgstr "Zawartość"
+
+#: confutatis/views/messagesummary.py:675
+#, python-format
+msgid "%d linked alerts missing (probably deleted)"
+msgstr ""
+
+#: confutatis/views/messagesummary.py:689
+#: confutatis/views/messagesummary.py:985 confutatis/views/alertlisting.py:707
+msgid "Correlation Alert"
+msgstr "Alert korelacji"
+
+#: confutatis/views/messagesummary.py:695
+msgid "Correlated Alert"
+msgstr "Alert skorelowany"
+
+#: confutatis/views/messagesummary.py:696
+#: confutatis/views/messagesummary.py:713
+msgid "Source Analyzer"
+msgstr "Analizator źródłowy"
+
+#: confutatis/views/messagesummary.py:706
+#: confutatis/views/messagesummary.py:988 confutatis/views/alertlisting.py:711
+msgid "Tool Alert"
+msgstr "Alert narzędzia"
+
+#: confutatis/views/messagesummary.py:712
+msgid "Linked Alert"
+msgstr "Alert połączony"
+
+#: confutatis/views/messagesummary.py:723
+msgid "Text"
+msgstr "Tekst"
+
+#: confutatis/views/messagesummary.py:725
+msgid "Ident"
+msgstr "Identyfikator"
+
+#: confutatis/views/messagesummary.py:730
+msgid "Origin"
+msgstr "Pochodzenie"
+
+#: confutatis/views/messagesummary.py:749 confutatis/views/stats.py:479
+msgid "Severity"
+msgstr "Krytyczność"
+
+#: confutatis/views/messagesummary.py:752
+msgid "Completion"
+msgstr "Wykonanie"
+
+#: confutatis/views/messagesummary.py:756
+#: confutatis/views/messagesummary.py:762
+msgid "Description"
+msgstr "Opis"
+
+#: confutatis/views/messagesummary.py:761
+msgid "Category"
+msgstr "Kategoria"
+
+#: confutatis/views/messagesummary.py:785
+msgid "User category"
+msgstr "Kategoria użytkownika"
+
+#: confutatis/views/messagesummary.py:790
+#: confutatis/views/messagesummary.py:809
+msgid "Number"
+msgstr "Numer"
+
+#: confutatis/views/messagesummary.py:791
+msgid "Tty"
+msgstr "TTY"
+
+#: confutatis/views/messagesummary.py:810
+msgid "Permission"
+msgstr "Uprawnienia"
+
+#: confutatis/views/messagesummary.py:832
+msgid "Change time"
+msgstr "Data zmiany"
+
+#: confutatis/views/messagesummary.py:833
+msgid "Inode Number"
+msgstr "Numer 'inode'"
+
+#: confutatis/views/messagesummary.py:834
+msgid "Major device"
+msgstr "Numer 'major' urządzenia"
+
+#: confutatis/views/messagesummary.py:835
+msgid "Minor device"
+msgstr "Numer 'minor' urządzenia"
+
+#: confutatis/views/messagesummary.py:836
+msgid "C Major device"
+msgstr "Urządzenie 'C major'"
+
+#: confutatis/views/messagesummary.py:837
+msgid "C Minor device"
+msgstr "Urządzenie 'C minor'"
+
+#: confutatis/views/messagesummary.py:841
+#, python-format
+msgid "Target file %s"
+msgstr "Docelowy plik %s"
+
+#: confutatis/views/messagesummary.py:845
+msgid "Path"
+msgstr "Ścieżka"
+
+#: confutatis/views/messagesummary.py:847
+msgid "Modify time"
+msgstr "Data modyfikacji"
+
+#: confutatis/views/messagesummary.py:848
+msgid "Access time"
+msgstr "Data dostępu"
+
+#: confutatis/views/messagesummary.py:849
+msgid "Data size"
+msgstr "Rozmiar danych"
+
+#: confutatis/views/messagesummary.py:850
+msgid "Disk size"
+msgstr "Rozmiar dysku"
+
+#: confutatis/views/messagesummary.py:869
+msgid "Web Service"
+msgstr "Usługa web"
+
+#: confutatis/views/messagesummary.py:872
+msgid "Url"
+msgstr "URL"
+
+#: confutatis/views/messagesummary.py:873
+msgid "Cgi"
+msgstr "CGI"
+
+#: confutatis/views/messagesummary.py:874
+msgid "Http Method"
+msgstr "Metoda HTTP"
+
+#: confutatis/views/messagesummary.py:877
+msgid "CGI Argument"
+msgstr "Argument CGI"
+
+#: confutatis/views/messagesummary.py:886
+msgid "SNMP Service"
+msgstr "Usługa SNMP"
+
+#: confutatis/views/messagesummary.py:889
+msgid "oid"
+msgstr "OID"
+
+#: confutatis/views/messagesummary.py:890
+msgid "messageProcessingModel"
+msgstr ""
+
+#: confutatis/views/messagesummary.py:891
+msgid "securityModel"
+msgstr ""
+
+#: confutatis/views/messagesummary.py:892
+msgid "securityName"
+msgstr ""
+
+#: confutatis/views/messagesummary.py:893
+msgid "securityLevel"
+msgstr ""
+
+#: confutatis/views/messagesummary.py:894
+msgid "contextName"
+msgstr ""
+
+#: confutatis/views/messagesummary.py:895
+msgid "contextEngineID"
+msgstr ""
+
+#: confutatis/views/messagesummary.py:896
+msgid "command"
+msgstr "polecenie"
+
+#: confutatis/views/messagesummary.py:908
+msgid "Port"
+msgstr "Port"
+
+#: confutatis/views/messagesummary.py:925
+#, fuzzy
+msgid "PortList"
+msgstr "Port"
+
+#: confutatis/views/messagesummary.py:928
+#, fuzzy
+msgid "ip_version"
+msgstr "Wersja"
+
+#: confutatis/views/messagesummary.py:961
+#, python-format
+msgid "Source(%d)"
+msgstr "Źródło(%d)"
+
+#: confutatis/views/messagesummary.py:970
+#, python-format
+msgid "Target(%d)"
+msgstr "Cel(%d)"
+
+#: confutatis/views/messagesummary.py:991
+msgid "Overflow Alert"
+msgstr "Alert przeładowania"
+
+#: confutatis/views/messagesummary.py:994
+msgid "Alert"
+msgstr "Alert"
+
+#: confutatis/views/messagesummary.py:1013
+msgid "MessageID"
+msgstr ""
+
+#: confutatis/views/messagesummary.py:1021
+msgid "Actions"
+msgstr "Akcje"
+
+#: confutatis/views/messagesummary.py:1060
+msgid "Network centric information"
+msgstr "Informacje dotyczące sieci"
+
+#: confutatis/views/messagesummary.py:1080
+msgid "ASCII Payload"
+msgstr "Zawartość (ASCII)"
+
+#: confutatis/views/messagesummary.py:1099
+msgid "Heartbeat"
+msgstr "Tętno"
+
+#: confutatis/views/__init__.py:45
+msgid "Events"
+msgstr "Zdarzenia"
+
+#: confutatis/views/__init__.py:45
+msgid "Alerts"
+msgstr "Alerty"
+
+#: confutatis/views/__init__.py:46
+msgid "CorrelationAlerts"
+msgstr "Alerty korelacji"
+
+#: confutatis/views/__init__.py:47
+msgid "ToolAlerts"
+msgstr "Alerty narzędzi"
+
+#: confutatis/views/__init__.py:50
+msgid "Agents"
+msgstr "Agenci"
+
+#: confutatis/views/__init__.py:51
+msgid "Heartbeats"
+msgstr "Tętno"
+
+#: confutatis/views/__init__.py:53
+#, fuzzy
+msgid "Statistics"
+msgstr "Status"
+
+#: confutatis/views/__init__.py:54
+#, fuzzy
+msgid "Categorizations"
+msgstr "Kategoria"
+
+#: confutatis/views/__init__.py:55
+#, fuzzy
+msgid "Sources"
+msgstr "Źródło"
+
+#: confutatis/views/__init__.py:56
+#, fuzzy
+msgid "Targets"
+msgstr "Cel"
+
+#: confutatis/views/__init__.py:57
+#, fuzzy
+msgid "Analyzers"
+msgstr "ID analizatora"
+
+#: confutatis/views/__init__.py:58
+#, fuzzy
+msgid "Timeline"
+msgstr "Czas"
+
+#: confutatis/views/__init__.py:61
+msgid "Settings"
+msgstr "Ustawienia"
+
+#: confutatis/views/__init__.py:62
+msgid "Filters"
+msgstr "Filtry"
+
+#: confutatis/views/__init__.py:64
+msgid "My account"
+msgstr "Moje konto"
+
+#: confutatis/views/__init__.py:67
+msgid "User listing"
+msgstr "Użytkownicy"
+
+#: confutatis/views/__init__.py:71
+msgid "About"
+msgstr "O systemie"
+
+#: confutatis/views/filter.py:55
+msgid "Example: (A AND B) OR (C AND D)"
+msgstr "Przykład: (A AND B) OR (C AND D)"
+
+#: confutatis/views/filter.py:137
+msgid "Load"
+msgstr "Wczytaj"
+
+#: confutatis/views/filter.py:139
+msgid "Save"
+msgstr "Zapisz"
+
+#: confutatis/views/filter.py:141
+msgid "Delete"
+msgstr "Usuń"
+
+#: confutatis/views/stats.py:138 confutatis/views/stats.py:276
+#: confutatis/views/stats.py:537 confutatis/views/stats.py:625
+#: confutatis/views/stats.py:638 confutatis/views/stats.py:642
+#: confutatis/views/stats.py:708 confutatis/views/messagelisting.py:231
+msgid "n/a"
+msgstr ""
+
+#: confutatis/views/stats.py:458
+#, fuzzy
+msgid "Top 10 Classifications"
+msgstr "Klasyfikacja"
+
+#: confutatis/views/stats.py:458
+msgid "Classification"
+msgstr "Klasyfikacja"
+
+#: confutatis/views/stats.py:465
+msgid "Top 10 Alert References"
+msgstr ""
+
+#: confutatis/views/stats.py:465
+#, fuzzy
+msgid "References"
+msgstr "Odśwież"
+
+#: confutatis/views/stats.py:473 confutatis/views/stats.py:772
+msgid "High"
+msgstr ""
+
+#: confutatis/views/stats.py:474 confutatis/views/stats.py:773
+msgid "Medium"
+msgstr ""
+
+#: confutatis/views/stats.py:475 confutatis/views/stats.py:774
+msgid "Low"
+msgstr ""
+
+#: confutatis/views/stats.py:476 confutatis/views/stats.py:775
+#, fuzzy
+msgid "Informational"
+msgstr "Info: %s"
+
+#: confutatis/views/stats.py:477 confutatis/views/stats.py:776
+msgid "N/a"
+msgstr ""
+
+#: confutatis/views/stats.py:479
+#, fuzzy
+msgid "Severities"
+msgstr "Krytyczność"
+
+#: confutatis/views/stats.py:485
+msgid "Alert Impact Types"
+msgstr ""
+
+#: confutatis/views/stats.py:485
+msgid "Impact Types"
+msgstr ""
+
+#: confutatis/views/stats.py:519
+#, fuzzy
+msgid "Top Source Country"
+msgstr "Port źródłowy"
+
+#: confutatis/views/stats.py:519
+msgid "Country"
+msgstr ""
+
+#: confutatis/views/stats.py:567
+#, fuzzy
+msgid "Top 10 Source Addresses"
+msgstr "IP źródłowy"
+
+#: confutatis/views/stats.py:567 confutatis/views/stats.py:665
+#: confutatis/views/stats.py:733
+#, fuzzy
+msgid "Address"
+msgstr "Adres numeryczny"
+
+#: confutatis/views/stats.py:574
+msgid "Top 10 Source Users"
+msgstr ""
+
+#: confutatis/views/stats.py:574 confutatis/views/stats.py:672
+msgid "User"
+msgstr ""
+
+#: confutatis/views/stats.py:665
+#, fuzzy
+msgid "Top 10 Targeted Addresses"
+msgstr "IP docelowy"
+
+#: confutatis/views/stats.py:672
+msgid "Top 10 Targeted Users"
+msgstr ""
+
+#: confutatis/views/stats.py:719
+msgid "Top 10 Analyzer Models"
+msgstr ""
+
+#: confutatis/views/stats.py:726
+msgid "Top 10 Analyzer Classes"
+msgstr ""
+
+#: confutatis/views/stats.py:733
+msgid "Top 10 Analyzer Node Addresses"
+msgstr ""
+
+#: confutatis/views/stats.py:740
+#, fuzzy
+msgid "Analyzer Locations"
+msgstr "Czas analizatora"
+
+#: confutatis/views/stats.py:740
+#, fuzzy
+msgid "Location"
+msgstr "Lokalizacja węzła"
+
+#: confutatis/views/sensor.py:51
+msgid "Offline"
+msgstr "Niedostepny"
+
+#: confutatis/views/sensor.py:54
+msgid "Unknown"
+msgstr "Nieznany"
+
+#: confutatis/views/sensor.py:57
+msgid "Missing"
+msgstr "Brakujący"
+
+#: confutatis/views/sensor.py:59
+msgid "Online"
+msgstr "Dostępny"
+
+#: confutatis/views/sensor.py:158
+msgid "Node location n/a"
+msgstr "Lokalizacja węzła - bd."
+
+#: confutatis/views/sensor.py:159
+msgid "Node name n/a"
+msgstr "Nazwa węzła - bd."
+
+#: confutatis/views/sensor.py:160
+msgid "OS version n/a"
+msgstr "Wersja systemu - bd."
+
+#: confutatis/views/sensor.py:161
+msgid "OS type n/a"
+msgstr "Typ systemu - bd."
+
+#: confutatis/modules/auth/cgi/cgi.py:41
+msgid "CGI Authentication failed: no user specified."
+msgstr "Uwierzytelnianie CGI nie powiodło się - nie podano nazwy użytkownika."
+
+#~ msgid "Agent"
+#~ msgstr "Agent"
+
+#~ msgid "Time"
+#~ msgstr "Czas"
+
+#~ msgid "Heartbeat summary"
+#~ msgstr "Podsumowanie tętna"
+
+#~ msgid "Filter on agent"
+#~ msgstr "Filtruj po agencie"
+
+#~ msgid "Filter on address"
+#~ msgstr "Filtr po adresie"
+
+#~ msgid "Available filters"
+#~ msgstr "Dostępne filtry"
+
+#~ msgid "Edition"
+#~ msgstr "Edycja filtra"
+
+#~ msgid "Formula:"
+#~ msgstr "Formuła:"
+
+#~ msgid "Name:"
+#~ msgstr "Nazwa:"
+
+#~ msgid "Comment:"
+#~ msgstr "Komentarz:"
+
+#~ msgid "Login"
+#~ msgstr "Zaloguj"
+
+#~ msgid "Delete user"
+#~ msgstr "Usuń konto"
+
+#~ msgid "Create user"
+#~ msgstr "Utwórz konto"
+
+#~ msgid "%d Node"
+#~ msgid_plural "%d Nodes"
+#~ msgstr[0] "%d węzeł"
+#~ msgstr[1] "%d węzły"
+#~ msgstr[2] "%d węzłów"
+
+#~ msgid "%d Analyzer"
+#~ msgid_plural "%d Analyzers"
+#~ msgstr[0] "%d analizator"
+#~ msgstr[1] "%d analizatory"
+#~ msgstr[2] "%d analizatorów"
+
+#, fuzzy
+#~ msgid "%d Online"
+#~ msgid_plural "%d Online"
+#~ msgstr[0] "%d dostępny"
+#~ msgstr[1] "%d dostępne"
+#~ msgstr[2] "%d dostępnych"
+
+#, fuzzy
+#~ msgid "%d Offline"
+#~ msgid_plural "%d Offline"
+#~ msgstr[0] "%d niedostępny"
+#~ msgstr[1] "%d niedostępne"
+#~ msgstr[2] "%d niedostępnych"
+
+#, fuzzy
+#~ msgid "%d Unknown"
+#~ msgid_plural "%d Unknown"
+#~ msgstr[0] "%d nieznany"
+#~ msgstr[1] "%d nieznane"
+#~ msgstr[2] "%d nieznanych"
+
+#, fuzzy
+#~ msgid "%d Missing"
+#~ msgid_plural "%d Missing"
+#~ msgstr[0] "%d brakujący"
+#~ msgstr[1] "%d brakujące"
+#~ msgstr[2] "%d brakujących"
+
+#~ msgid "Address information"
+#~ msgstr "Informacje o adresie"
+
+#~ msgid "Total:"
+#~ msgstr "Wszystkich:"
+
+#~ msgid "Last heartbeat"
+#~ msgstr "Ostatnie tętno"
+
+#~ msgid "Status"
+#~ msgstr "Status"
+
+#~ msgid "Alert listing"
+#~ msgstr "Lista alertów"
+
+#~ msgid "Heartbeat listing"
+#~ msgstr "Lista informacji tętna"
+
+#~ msgid "Heartbeat analysis"
+#~ msgstr "Analiza tętna"
+
+#~ msgid "logout"
+#~ msgstr "Wyloguj"
+
+#~ msgid "%(username)s on %(date)s"
+#~ msgstr "%(username)s %(date)s"
+
+#~ msgid "Account information"
+#~ msgstr "Informacje konta"
+
+#~ msgid "Login:"
+#~ msgstr "Konto:"
+
+#~ msgid "Language:"
+#~ msgstr "Język:"
+
+#~ msgid "Permissions:"
+#~ msgstr "Uprawnienia:"
+
+#~ msgid "Check All"
+#~ msgstr "Wszystkie"
+
+#~ msgid "Change password"
+#~ msgstr "Zmień hasło"
+
+#~ msgid "Current password:"
+#~ msgstr "Hasło:"
+
+#~ msgid "New password:"
+#~ msgstr "Nowe hasło:"
+
+#~ msgid "Confirm new password:"
+#~ msgstr "Potwierdź nowe hasło:"
+
+#~ msgid "Submit Changes"
+#~ msgstr "Wyślij zmiany"
+
+#~ msgid "Period"
+#~ msgstr "Okres"
+
+#~ msgid "Minutes"
+#~ msgstr "min."
+
+#~ msgid "Hours"
+#~ msgstr "godz."
+
+#~ msgid "Days"
+#~ msgstr "dni"
+
+#~ msgid "Months"
+#~ msgstr "mies."
+
+#~ msgid "Years"
+#~ msgstr "lat."
+
+#~ msgid "Unlimited"
+#~ msgstr "bez limitu"
+
+#~ msgid "Timezone"
+#~ msgstr "Czas"
+
+#~ msgid "Frontend localtime"
+#~ msgstr "systemu"
+
+#~ msgid "Sensor localtime"
+#~ msgstr "sondy"
+
+#~ msgid "UTC"
+#~ msgstr "UTC"
+
+#~ msgid "Limit"
+#~ msgstr "Limit"
+
+#~ msgid "Refresh"
+#~ msgstr "Odśwież"
+
+#~ msgid "Apply"
+#~ msgstr "Zastosuj"
+
+#~ msgid "prev"
+#~ msgstr "poprz."
+
+#~ msgid "current"
+#~ msgstr "bierz."
+
+#~ msgid "next"
+#~ msgstr "nast."
+
+#~ msgid "total"
+#~ msgstr "wszystkich"
+
+#~ msgid "Equal"
+#~ msgstr "Równa się"
+
+#~ msgid "Lesser than"
+#~ msgstr "Mniej niż"
+
+#~ msgid "Greater than"
+#~ msgstr "Więcej niż"
+
+#~ msgid "Lesser or equal"
+#~ msgstr "Mniejszerówne niż"
+
+#~ msgid "Greater or equal"
+#~ msgstr "Większerówne niż"
+
+#~ msgid "Substring"
+#~ msgstr "Wycinek frazy"
+
+#~ msgid "Substring (case-insensitive)"
+#~ msgstr "Wycinek frazy (ignoruj wielkość liter)"
+
+#~ msgid "Regular expression"
+#~ msgstr "Wyrażenie regularne"
+
+#~ msgid "Regular expression (case-insensitive)"
+#~ msgstr "Wyrażenie regularne (ignoruj wielkość liter)"
+
+#, fuzzy
+#~ msgid "Filter on"
+#~ msgstr "Filtruj po:"
+
+#~ msgid "Group entry by:"
+#~ msgstr "Grupuj po:"
+
+#, fuzzy
+#~ msgid "filtered"
+#~ msgstr "Filtr"
+
+#~ msgid "Type:"
+#~ msgstr "Typ:"
+
+#~ msgid "CorrelationAlert"
+#~ msgstr "Alert korelacji"
+
+#~ msgid "OverflowAlert"
+#~ msgstr "Alert przepełnienia"
+
+#~ msgid "ToolAlert"
+#~ msgstr "Alert narzędzia"
+
+#~ msgid "Severity:"
+#~ msgstr "Krytyczność:"
+
+#~ msgid "Completion:"
+#~ msgstr "Wykonanie:"
+
+#~ msgid "Source"
+#~ msgstr "Źródło"
+
+#~ msgid "Target"
+#~ msgstr "Cel"
+
+#, fuzzy
+#~ msgid "Analyzer"
+#~ msgstr "ID analizatora"
+
+#, fuzzy
+#~ msgid "Filter on this classification.text"
+#~ msgstr "Filtr: %s"
+
+#, fuzzy
+#~ msgid "Filter on this port/protocol"
+#~ msgstr "Filtr: %s"
+
+#, fuzzy
+#~ msgid "Port/protocol information"
+#~ msgstr "Informacje dotyczące sieci"
+
+#~ msgid "%(hidden)d of %(total)d alerts not shown..."
+#~ msgstr "%(hidden)d z %(total)d wszystkich alertów ukryte..."
+
+#~ msgid "expand"
+#~ msgstr "rozwiń"
+
+#, fuzzy
+#~ msgid "Filter on this reference"
+#~ msgstr "Filtr: %s"
+
+#~ msgid "source"
+#~ msgstr "źródło"
+
+#~ msgid "target"
+#~ msgstr "cel"
+
+#~ msgid "%(hidden)d of %(total)d %(name)ss not shown..."
+#~ msgstr "%(hidden)d z %(total)d %(name)ss ukryte..."
+
+#~ msgid "Filter on this %s"
+#~ msgstr "Filtr: %s"
+
+#~ msgid "%s information"
+#~ msgstr "Info: %s"
+
+#~ msgid "Filter"
+#~ msgstr "Filtr"
+
+#~ msgid "Submit"
+#~ msgstr "Wyślij"
+
+#, fuzzy
+#~ msgid "Filter:"
+#~ msgstr "Filtr"
+
+#, fuzzy
+#~ msgid "Time:"
+#~ msgstr "Czas"
+
+#, fuzzy
+#~ msgid "Hour"
+#~ msgstr "godz."
+
+#, fuzzy
+#~ msgid "Day"
+#~ msgstr "dni"
+
+#, fuzzy
+#~ msgid "Month"
+#~ msgstr "mies."
+
+#, fuzzy
+#~ msgid "From:"
+#~ msgstr "Formuła:"
+
+#, fuzzy
+#~ msgid "To:"
+#~ msgstr "Wszystkich:"
+
+#~ msgid "Invalid 'analyzerid:messageid' pair, '%(analyzerid):%(messageid)'"
+#~ msgstr ""
+#~ "Nieprawidłowa para 'analyzerid:messageid', '%(analyzerid):%(messageid)'"
+
+#~ msgid "Sensor"
+#~ msgstr "Sonda"
